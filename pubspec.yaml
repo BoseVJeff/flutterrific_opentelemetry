@@ -12,8 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dartastic_opentelemetry: ^0.9.2
-  dartastic_opentelemetry_api: ^0.8.8
+  dartastic_opentelemetry: 
+    git:
+      url: https://github.com/BoseVJeff/dartastic_opentelemetry.git
+  dartastic_opentelemetry_api: ^1.0.0-alpha
   #TODO - need to manage go_router dependency versions and no-go-router implementation
   go_router: ^14.8.1
   meta: ^1.16.0
